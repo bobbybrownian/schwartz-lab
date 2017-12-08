@@ -85,11 +85,6 @@ Profile.create(name: "Tristan Driscoll",
                description: "Dr. Driscoll is a Postdoctoral Fellow in Cardiovascular Medicine at Yale University. He obtained his undergraduate degree in Biomedical Engineering at the University of Minnesota (2009), where he worked as a laboratory technician under Dr. Kevin Wickman in the department of pharmacology. For his Ph.D. work, Dr. Driscoll moved to the University of Pennsylvania (2015), where he studied bioengineering under the direction of Dr. Robert Mauck. Dr. Driscollís initial work focused on the mechanics and biochemical content of engineered fibrocartilage. For his thesis work, he focused on mechanobiology of mesenchymal stem cells, studying structural components of the cytoskeleton and nucleuoskeleton that regulate the response of these cells to static and dynamic tensile stretch. Upon completion of his graduate work, Dr. Driscoll started his postdoctoral studies at the Yale Cardiovascular Research Center in January 2015 under the guidance of Dr. Martin Schwartz, where he is currently focused on the influence of substrate stiffness on the mechanics and dynamics of the cytoskeleton and its connections to integrin based adhesions.",
                img_url: "tristan.jpg")
 			   
-Profile.create(name: "Charlene Jouy",
-               email: "charlene.jouy@postgrad.manchester.ac.uk",
-               description: "Charlene is a PhD student in Martin Schwartz Lab in the Wellcome Trust Center for Cell and Matrix research at the University of Manchester. She obtained a bioengineering degree at Polytech Nice Sophia-University of Nice Sopia Antipolis (France-2016), where she had various internships in neurobiology (LNBT-University of Angers - 2013) and cardiovascular labs (BNMI- University of Angers -2014; Yale cardiovascular research center – Yale University-2015). Under the supervision of Dr.Martin Schwartz she studied the impact of a metabolic modulation on endothelial cells mechanosensitivity to fluid shear stress. Charlene started her PhD program at the University of Manchester in September 2016 under the guidance of Dr. Martin Schwartz, where she is currently focused on the central role for strain direction in cardiac fibrosis and its consequences on cardiac fibroblasts fate and cardiac extracellular matrix.",               
-			   img_url: "charlene.png")
-			   
 Profile.create(name: "Rui Hui",
                email: "rui.hui@yale.edu",
                description: "Dr. Hu obtained his M.D. degree, major in clinical medicine, in Wuhan University (2014) and worked as a cardiovascular surgeon for 2 years, he subsequently started his postdoctoral training under the guidance of Dr. Martin Schwartz at Yale Cardiovascular Center, where he mainly focuses on abnormal mechanotransduction in aortic aneurysm and dissection initiating and progression.",               
@@ -140,7 +135,10 @@ Labmethod.create(title: "Making ECGS", pdf_url: "Making ECGS.pdf", methodtype: b
 Labmethod.create(title: "Fibronectin Purification", pdf_url: "Fibronectin Purification.pdf", methodtype: biological)
 Labmethod.create(title: "Making competent cell stock", pdf_url: "Making Competent Cells.pdf", methodtype: biological)
 
-Labmethod.create(title: "program 1", pdf_url: "animalFacts.pdf", methodtype: programming)
+Labmethod.create(title: "Cell counter-MATLAB script", pdf_url: "cell_counter_v1_1.m", methodtype: programming)
+Labmethod.create(title: "FRET analysis-MATLAB script", pdf_url: "FRETanalysiscode20170217.m", methodtype: programming)
+Labmethod.create(title: "Nuclear Translocation-MATLAB script", pdf_url: "nicotransloc.m,", methodtype: programming)
+Labmethod.create(title: "Splitting Tif files--MATLAB script", pdf_url: "split_tif.m", methodtype: programming)
 
 Labmethod.create(title: "The Importance of Stupidity in Scientific Research", pdf_url: "importance of stupidity.pdf", methodtype: philosophy)
 Labmethod.create(title: "The Importance of Indifference in Scientific Research", pdf_url: "importance of indifference.pdf", methodtype: philosophy)
