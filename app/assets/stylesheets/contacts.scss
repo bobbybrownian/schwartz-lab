@@ -1,0 +1,52 @@
+$dull_gray: #DAD6CA;
+$sky_blue: #1BB0CE;
+$grey_blue: #4F8699;
+$dull_maroon:#6A5E72;
+$maroon:#563444;
+$grey_green:#7BB0A8;
+$lime_green:#A7DBAB;
+$yellow_green:#E4F5B1;
+
+
+
+.contacts-header{
+}
+
+.PI-info {
+  font-size: 22px;
+  list-style-type:none;
+  margin-left:-300px;
+}
+
+.PI-pic {
+	height:250px;
+	width:auto;
+	margin-left:-100px;
+}
+
+.contact-title{
+  border-bottom: solid 1px $dull_maroon;
+  margin-top: 50px;
+  color: $grey_blue;
+}
+
+.profile-section{
+  // margin-top: 10px;
+  border-bottom: solid 1px $grey_blue;
+  padding: 10px;
+}
+
+.profile-picture{
+  //height: 15vw;
+  width: auto;
+  height:200px;
+  float: left;
+  margin-right: 10px;
+  clear:both;
+}
+
+.profile-info{
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+}

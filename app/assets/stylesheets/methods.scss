@@ -1,0 +1,44 @@
+.method-layer {
+  margin-left: 225px;
+  
+}
+
+.method-headers {
+    color: green;
+    text-align: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    // padding-right: 90%;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    background-color: lightblue;
+    border-radius: 10px;
+    list-style-type: none;
+    font-size: 2.5vw;
+	cursor:pointer;
+	
+	box-shadow: -10px 0px 10px -5px gray;
+}
+
+.method-headers:hover {
+
+	background-color:darken(lightblue,20%);
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	opacity: 1;
+}
+
+.method-document-header{
+  margin-left: 100px;
+}
+
+.method-links-layer{
+  margin-top: 25px;
+}
+
+

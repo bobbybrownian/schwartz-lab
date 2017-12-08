@@ -1,0 +1,27 @@
+$sky_blue: #1BB0CE;
+$gold: #eff464;
+
+.historycol{
+	background-color:lighten($sky_blue,40%);
+	opacity:0.9;
+	margin-left:-50px;
+
+	position:relative;
+}
+
+.historycol-ref{
+	margin-top:50px;
+	margin-left:-50px;
+	background-color:lighten($gold,40%);
+}
+
+.historycol-right{
+	padding-top:10px;
+	//margin-left:50px;
+	background-color:lighten($gold,20%);
+	border: dashed 2px black;
+	position:absolute;
+	
+	margin-left:600px;
+}
+

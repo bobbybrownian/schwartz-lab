@@ -1,0 +1,3 @@
+class Newstuff < ApplicationRecord
+
+end

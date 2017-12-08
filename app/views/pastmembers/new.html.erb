@@ -1,0 +1,40 @@
+<% if current_user.admin %>
+
+<h1 class="">Schwartz Lab Maintenance Page</h1>
+<h3><%= link_to "Home", root_path%></h3>
+<h3><%= link_to "Add/Delete Methods", maintenance_index_path%></h3>
+<h3><%= link_to "Add/Delete Profile", new_profile_path%><span></h3>
+<h3><%= link_to "Add/Delete News Item", new_newstuff_path%><span></h3>
+
+<div class="rows">
+  <div class="columns small-6">
+    <h2>Add a pastmember</h2>
+    <div class="" style="background-color:#FFF; border:dashed 2px black;">
+      <%= form_for @pastmember do |f| %>
+
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+      <%= f.label :description %>
+      <%= f.text_field :email %>
+
+      <%= f.submit "Add New Past Member" %>
+      <% end %>
+    </div>
+  </div>
+
+  <h2>Delete past member </h2>
+  <div class="columns small-6">
+    <div class="" style="background-color:#FFF; border:dashed 2px black;">
+      <ol>
+        <% @pastmembers.each do |pastmember| %>
+        <li><%=pastmember.name %> <%= link_to "[x]", pastmember, method: :delete, data: {confirm: "Are you sure you want to delete #{pastmember.name}?"} %></li>
+        <% end %>
+      </ol>
+    <div>
+  </div>
+</div>
+
+<% else %>
+<% redirect_to static_pages_index %>
+<% end %>
