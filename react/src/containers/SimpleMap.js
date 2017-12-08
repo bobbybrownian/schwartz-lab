@@ -2,30 +2,10 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import CityMapPin from '../components/CityMapPin'
 
-
-// const AnyReactComponent = ({text, city, members }) =>
-//     // let x = "hello world"
-//     <div className="googleDivLayer2">
-//       <span className="googleDivLayer3">{text}</span>
-//       <br />
-//       <div>
-//         <span className="">{city}</span>
-//
-//       </div>
-//     </div>;
-
-
-
-const GoogleMapConfig = {
-  //key: "AIzaSyBylVIdyNhsQtlYCmbgFTH2zZWZ0Wmj1u4"
-}
-
-
 class SimpleMap extends Component {
   constructor(props) {
     super(props)
     this.state = {
-        //center: {lat: 37.09, lng: 260.71},
 		center: {lat: 35, lng: 272},
         zoom:4	
     }
