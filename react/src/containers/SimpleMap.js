@@ -2,19 +2,22 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import CityMapPin from '../components/CityMapPin'
 
+
+const GoogleMapConfig = {
+  key: "AIzaSyDFkVFlpfTKxJFT8wFVKRpQ9Pdbzh8htsU"
+}
+
+
 class SimpleMap extends Component {
   constructor(props) {
     super(props)
     this.state = {
+        //center: {lat: 37.09, lng: 260.71},
 		center: {lat: 35, lng: 272},
         zoom:4	
     }
   } 
 
-const GoogleMapConfig = {
-  key: "AIzaSyDFkVFlpfTKxJFT8wFVKRpQ9Pdbzh8htsU"
-}
-  
   render() {
 	let mapOptions = {
 	  scrollwheel: false,
