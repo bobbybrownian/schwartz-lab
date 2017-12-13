@@ -67,8 +67,8 @@ Profile.create(name: "Brian Coon",
 			   
 Profile.create(name: "Keiichiro Tanaka",
                email: "keiichiro.tanaka@yale.edu",
-               description: "Associate Research Scientist of Internal Medicine (Cardiology)",
-               img_url: "profile_stock.jpg")
+               description: "I am an Associate Research Scientist of Internal Medicine (Cardiology). My research interests lie in the molecular mechanism of mechanotransduction and its physiological role.  Currently, I am looking at the mechanisms behind the endothelial responses to shear stress.",
+               img_url: "keiichiro.jpg")
 
 Profile.create(name: "Abhishek Kumar",
                email: "a.kumar@yale.edu",
@@ -90,7 +90,7 @@ Profile.create(name: "Rui Hui",
                description: "Dr. Hu obtained his M.D. degree, major in clinical medicine, in Wuhan University (2014) and worked as a cardiovascular surgeon for 2 years, he subsequently started his postdoctoral training under the guidance of Dr. Martin Schwartz at Yale Cardiovascular Center, where he mainly focuses on abnormal mechanotransduction in aortic aneurysm and dissection initiating and progression.",               
 			   img_url: "profile_stock.jpg")
 			   
-			   Profile.create(name: "Sang Joon Ahn",
+Profile.create(name: "Sang Joon Ahn",
                email: "sangjoon.ahn@yale.edu",
                description: "Postdoctoral Associate in Medicine (Cardiology)",
                img_url: "profile_stock.jpg")
