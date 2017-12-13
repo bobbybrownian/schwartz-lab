@@ -11,6 +11,10 @@ class SimpleMap extends Component {
     }
   } 
 
+const GoogleMapConfig = {
+  key: "AIzaSyDFkVFlpfTKxJFT8wFVKRpQ9Pdbzh8htsU"
+}
+  
   render() {
 	let mapOptions = {
 	  scrollwheel: false,
